@@ -22,6 +22,10 @@ class Cat {
 public class App {
 	static Gson gson = new Gson();
 
+	public static void b1() {
+		System.out.println("b1");
+	}
+
 	public static void main(String[] args) {
 		Cat c = new Cat("catcat", 10, 0.5);
 		System.out.println(gson.toJson(c));
